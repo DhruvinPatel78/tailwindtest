@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "date": "20/2/24",
+    "chatList": [
+      {
+        "id": 1,
+        "name": "Jav",
+        "description": "Engineering",
+        "message": "Hi team 👋",
+        "time": "11:45 am",
+        "user": "you"
+      },
+      {
+        "id": 2,
+        "name": "Jav",
+        "description": "Engineering",
+        "message": "Anyone on for lunch today",
+        "time": "11:46 am",
+        "user": "you"
+      },
+      {
+        "id": 3,
+        "name": "Jav",
+        "description": "Engineering",
+        "message": "I’m down! Any ideas??",
+        "time": "11:47 am",
+        "user": "user!@#"
+      },
+      {
+        "id": 4,
+        "name": "Jav",
+        "description": "Engineering",
+        "message": "I am down for whatever!",
+        "time": "11:47 am",
+        "user": "you"
+      },
+      {
+        "id": 5,
+        "name": "Aubrey",
+        "description": "Product",
+        "message": "I was thinking the cafe downtown",
+        "time": "11:48 am",
+        "user": "user@#$"
+      },
+      {
+        "id": 6,
+        "name": "Aubrey",
+        "description": "Product",
+        "message": "But limited vegan options @Janet !",
+        "time": "11:49 am",
+        "user": "user#&*(F"
+      },
+      {
+        "id": 7,
+        "name": "Jav",
+        "description": "Engineering",
+        "message": "Agreed",
+        "time": "11:50 am",
+        "user": "you"
+      }
+    ]
+  }
+]
