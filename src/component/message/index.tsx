@@ -50,7 +50,7 @@ const Message = ({ user, key = 0, name, description, message, time }:any) => {
                   user === "you" ? "text-white" : "text-[#2C2C2E]"
                 } text-sm font-normal flex flex-row gap-1 `}
               >
-                {message.split(" ")?.map((item, index) => {
+                {message.split(" ")?.map((item:any, index:number) => {
                   return (
                     <span
                       key={`message-${index + 1}`}

@@ -8,7 +8,7 @@ export default function Home() {
     <main className="flex min-h-screen h-screen flex-col items-center justify-between">
       <Header />
       <div className={"h-full w-full p-4 overflow-auto"}>
-        {data?.map((item, index) => {
+        {data?.map((item: any, index: number) => {
           return (
             <div
               className={"flex flex-col gap-2 items-center"}
@@ -18,7 +18,7 @@ export default function Home() {
                 {moment().subtract(10, "days").calendar()}
               </span>
               <div className={"flex flex-col gap-2 w-full"}>
-                {item?.chatList?.map((chat, index) => {
+                {item?.chatList?.map((chat: any, index: number) => {
                   return (
                     <Message
                       message={chat.message}
