@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const Message = ({ user, key = 0, name, description, message, time }) => {
+const Message = ({ user, key = 0, name, description, message, time }:any) => {
   return (
     <div
       className={`w-full flex ${
